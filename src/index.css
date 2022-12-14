@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap');
+
+body{
+    background-color: #C9A9A6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.App {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 50px;
+  font-family:  serif;
+  margin-bottom: 20px;
+}
+.App form {
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.App input {
+  line-height: 40px;
+  border: none;
+  width: 130px;
+  padding: 0 20px;
+}
+
+.App button {
+  line-height: 40px;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.searchResultDiv {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.searchResultDiv h3 {
+  color:  #4380c3;
+}
+.searchResultDiv h3 a {
+  color:  #4380c3;
+  display: inline-block;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.searchResultDiv a:visited {
+  color: #4380c3;
+}
+.searchResultDiv .link a {
+  text-decoration: none;
+  color: #4380c3;
+}
+.searchResultDiv .link a:hover {
+  text-decoration: none;
+}
+.searchResultDiv .searchmatch {
+
+  color: #4380c3
+}
+.searchResultDiv
+  {
+    background-color:#F3CFC6;
+    padding: 5px 5px;
+    
+  }

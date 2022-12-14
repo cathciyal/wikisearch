@@ -1,0 +1,66 @@
+body{
+    margin-top: 90px;
+}
+
+.notStarted
+{
+   background-color: white;
+   float: left;
+   height: 420px;
+   width: 300px;
+   margin-left: 150px;
+   box-shadow: 10px 5px 5px gray;
+   border-radius: 5px;
+   border:1px solid gray
+}
+.InProgress
+{
+   background-color: white;
+   float: left;
+   height: 420px;
+   width: 300px;
+   margin-left: 150px;
+   border:1px solid gray;
+   box-shadow: 10px 5px 5px gray;
+   border-radius: 5px;
+   
+}
+.Completed
+{
+   background-color: white;
+   border:1px solid gray;
+   float: right;
+   height: 420px;
+   width: 300px;
+   margin-right: 80px;
+   box-shadow: 10px 5px 5px gray;
+   border-radius: 5px;
+   border:1px solid gray
+}
+.ModalButton
+{
+    background-color: #08FF08;
+}
+.Addbutton
+{
+    padding: 4px 4px;
+    background-color: #08FF08;
+    color: black;
+    border-radius: 2px;
+    display: inline;
+    border: 1px solid gray;
+}
+.Input
+{
+    border-radius: 2px;
+    width: 140px;
+    display: inline;
+    border: 1px solid black;
+    text-align: center;
+}
+.ModalButton
+{
+    background-color: #08FF08;
+    color: black;
+    margin-left: 30px;
+}
